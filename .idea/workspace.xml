@@ -133,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimplePigShould (1)">
+  <component name="RunManager" selected="JUnit.SimplePigShould (2)">
     <configuration name="SimplePigShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
@@ -143,7 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplePigShould (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimplePigShould (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimplePigShould" />
@@ -152,7 +152,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplePigShould (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimplePigShould (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimplePigShould" />
@@ -181,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimplePigShould (2)" />
         <item itemvalue="JUnit.SimplePigShould (1)" />
         <item itemvalue="JUnit.SimplePigShould" />
         <item itemvalue="JUnit.SimplePigShould (5)" />
         <item itemvalue="JUnit.SimplePigShould (3)" />
-        <item itemvalue="JUnit.SimplePigShould (4)" />
       </list>
     </recent_temporary>
   </component>

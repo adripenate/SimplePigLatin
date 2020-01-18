@@ -33,6 +33,11 @@ public class SimplePigShould {
         assertThat(SimplePig.pigIt("Hello my friend")).isEqualTo("elloHay ymay riendfay");
     }
 
+    @Test
+    public void pig_valid_words() {
+        assertThat(SimplePig.pigIt("Hello my go3od friend!")).isEqualTo("elloHay ymay go3od friend!");
+    }
+
     private static class SimplePig {
         public static String pigIt(String phrase) {
             if (hasSpecialCharactersOrNumbers(phrase) || isEmpty(phrase)) return phrase;
