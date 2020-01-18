@@ -34,7 +34,7 @@ public class SimplePigShould {
         }
 
         private static boolean hasSpecialCharactersOrNumbers(String phrase) {
-            return phrase.matches("\\W");
+            return phrase.matches(".*\\W.*");
         }
 
         private static String pigWord(String phrase) {
