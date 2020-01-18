@@ -40,7 +40,8 @@ public class SimplePigShould {
 
     private static class SimplePig {
         public static String pigIt(String phrase) {
-            return pig(getWordsOf(phrase));
+            String[] words = getWordsOf(phrase);
+            return pig(words);
         }
 
         private static String[] getWordsOf(String phrase) {
