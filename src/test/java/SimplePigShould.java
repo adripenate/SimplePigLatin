@@ -13,6 +13,11 @@ public class SimplePigShould {
         assertThat(SimplePig.pigIt("!")).isEqualTo("!");
     }
 
+    @Test
+    public void pig_when_string_is_a_word() {
+        assertThat(SimplePig.pigIt("Hello")).isEqualTo("elloHay");
+    }
+
     private static class SimplePig {
         public static String pigIt(String phrase) {
             return phrase;
