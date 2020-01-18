@@ -40,7 +40,7 @@ public class SimplePigShould {
 
     private static class SimplePig {
         public static String pigIt(String phrase) {
-            if (hasSpecialCharactersOrNumbers(phrase) || isEmpty(phrase)) return phrase;
+            if (isEmpty(phrase)) return phrase;
             return pig(getWordsOf(phrase));
         }
 
@@ -51,7 +51,8 @@ public class SimplePigShould {
         private static String pig(String[] words) {
             String pigedPhrase = "";
             for (String word : words){
-                pigedPhrase += pigWord(word) + " ";
+                if (hasSpecialCharactersOrNumbers(word)) pigedPhrase += word + " ";
+                else pigedPhrase += pigWord(word) + " ";
             }
             return pigedPhrase.trim();
         }
@@ -61,7 +62,7 @@ public class SimplePigShould {
         }
 
         private static boolean hasSpecialCharactersOrNumbers(String phrase) {
-            return phrase.matches("([a-zA-Z]*[\\W||\\d])*");
+            return phrase.matches("([a-zA-Z]*[\\W||\\d][a-zA-Z]*)*");
         }
 
         private static String pigWord(String phrase) {
