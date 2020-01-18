@@ -18,6 +18,11 @@ public class SimplePigShould {
         assertThat(SimplePig.pigIt("Hello")).isEqualTo("elloHay");
     }
 
+    @Test
+    public void not_pig_when_word_has_special_character() {
+        assertThat(SimplePig.pigIt("Hello!")).isEqualTo("Hello!");
+    }
+
     private static class SimplePig {
         public static String pigIt(String phrase) {
             if (hasSpecialCharactersOrNumbers(phrase) || isEmpty(phrase)) return phrase;
@@ -29,7 +34,7 @@ public class SimplePigShould {
         }
 
         private static boolean hasSpecialCharactersOrNumbers(String phrase) {
-            return phrase.matches("[\\W||\\d]");
+            return phrase.matches("\\W");
         }
 
         private static String pigWord(String phrase) {
