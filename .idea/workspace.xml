@@ -30,16 +30,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SimplePigShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+            <state relative-caret-position="306">
+              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#112#113#0" expanded="true" />
                 <element signature="e#133#134#0" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
                 <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -111,6 +111,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -124,7 +125,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimplePigShould">
+  <component name="RunManager" selected="JUnit.SimplePigShould (3)">
+    <configuration name="SimplePigShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimplePigLatin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimplePigShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimplePigShould (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
@@ -143,6 +153,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SimplePigShould (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimplePigLatin" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimplePigShould" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimplePigShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
@@ -152,33 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplePigShould.not_pig_when_string_is_not_a_word" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SimplePigLatin" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimplePigShould" />
-      <option name="METHOD_NAME" value="not_pig_when_string_is_not_a_word" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimplePigShould.pig_when_string_is_a_word" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SimplePigLatin" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SimplePigShould" />
-      <option name="METHOD_NAME" value="pig_when_string_is_a_word" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimplePigShould" />
-        <item itemvalue="JUnit.SimplePigShould.pig_when_string_is_a_word" />
         <item itemvalue="JUnit.SimplePigShould (3)" />
-        <item itemvalue="JUnit.SimplePigShould.not_pig_when_string_is_not_a_word" />
+        <item itemvalue="JUnit.SimplePigShould (4)" />
         <item itemvalue="JUnit.SimplePigShould (2)" />
+        <item itemvalue="JUnit.SimplePigShould (1)" />
+        <item itemvalue="JUnit.SimplePigShould" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +213,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579352363233</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Green test - not_pig_when_string_is_not_a_word">
+      <created>1579352394404</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579352394404</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Red test - pig_when_string_is_a_word">
+      <created>1579352542704</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579352542704</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -231,6 +244,15 @@
       <configuration name="SimplePigShould.not_pig_when_string_is_not_a_word" configurationId="JUnit" />
     </history-entry>
     <history-entry file="SimplePigShould - 2020.01.18 at 12h 59m 09s.xml">
+      <configuration name="SimplePigShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimplePigShould_(3) - 2020.01.18 at 12h 59m 39s.xml">
+      <configuration name="SimplePigShould (3)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimplePigShould_pig_when_string_is_a_word - 2020.01.18 at 13h 02m 02s.xml">
+      <configuration name="SimplePigShould.pig_when_string_is_a_word" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimplePigShould - 2020.01.18 at 13h 02m 08s.xml">
       <configuration name="SimplePigShould" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -270,7 +292,9 @@
     <MESSAGE value="Red test - not_pig_when_string_is_empty" />
     <MESSAGE value="Green test - not_pig_when_string_is_empty" />
     <MESSAGE value="Red test - not_pig_when_string_is_not_a_word" />
-    <option name="LAST_COMMIT_MESSAGE" value="Red test - not_pig_when_string_is_not_a_word" />
+    <MESSAGE value="Green test - not_pig_when_string_is_not_a_word" />
+    <MESSAGE value="Red test - pig_when_string_is_a_word" />
+    <option name="LAST_COMMIT_MESSAGE" value="Red test - pig_when_string_is_a_word" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -282,16 +306,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimplePigShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        <state relative-caret-position="306">
+          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#112#113#0" expanded="true" />
             <element signature="e#133#134#0" expanded="true" />
             <element signature="e#287#288#0" expanded="true" />
             <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
           </folding>
         </state>
       </provider>

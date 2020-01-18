@@ -21,6 +21,10 @@ public class SimplePigShould {
     private static class SimplePig {
         public static String pigIt(String phrase) {
             if (phrase.matches("[\\W||\\d]") || phrase.isEmpty()) return phrase;
+            return pigWord(phrase);
+        }
+
+        private static String pigWord(String phrase) {
             char firstLetter = phrase.charAt(0);
             return phrase.substring(1) + firstLetter + "ay";
         }
