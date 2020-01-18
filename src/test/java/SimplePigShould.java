@@ -23,6 +23,11 @@ public class SimplePigShould {
         assertThat(SimplePig.pigIt("Hello!")).isEqualTo("Hello!");
     }
 
+    @Test
+    public void not_pig_when_word_has_number() {
+        assertThat(SimplePig.pigIt("Hello5")).isEqualTo("Hello5");
+    }
+
     private static class SimplePig {
         public static String pigIt(String phrase) {
             if (hasSpecialCharactersOrNumbers(phrase) || isEmpty(phrase)) return phrase;
