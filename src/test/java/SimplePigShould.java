@@ -40,7 +40,6 @@ public class SimplePigShould {
 
     private static class SimplePig {
         public static String pigIt(String phrase) {
-            if (isEmpty(phrase)) return phrase;
             return pig(getWordsOf(phrase));
         }
 
@@ -55,10 +54,6 @@ public class SimplePigShould {
                 else pigedPhrase += pigWord(word) + " ";
             }
             return pigedPhrase.trim();
-        }
-
-        private static boolean isEmpty(String phrase) {
-            return phrase.isEmpty();
         }
 
         private static boolean hasSpecialCharactersOrNumbers(String phrase) {
