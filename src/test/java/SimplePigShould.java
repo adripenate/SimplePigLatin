@@ -49,12 +49,12 @@ public class SimplePigShould {
         }
 
         private static String pig(String[] words) {
-            String pigedPhrase = "";
+            String piggedPhrase = "";
             for (String word : words){
-                if (hasSpecialCharactersOrNumbers(word)) pigedPhrase += word + " ";
-                else pigedPhrase += pigWord(word) + " ";
+                if (hasSpecialCharactersOrNumbers(word)) piggedPhrase += word + " ";
+                else piggedPhrase += pigWord(word) + " ";
             }
-            return pigedPhrase.trim();
+            return piggedPhrase.trim();
         }
 
         private static boolean hasSpecialCharactersOrNumbers(String phrase) {
