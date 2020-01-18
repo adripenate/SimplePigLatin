@@ -15,7 +15,7 @@ public class SimplePigShould {
 
     private static class SimplePig {
         public static String pigIt(String phrase) {
-            return "";
+            return phrase;
         }
     }
 }
