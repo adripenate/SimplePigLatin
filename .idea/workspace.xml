@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SimplePigShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+            <state relative-caret-position="171">
+              <caret line="32" column="87" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#112#113#0" expanded="true" />
@@ -134,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimplePigShould (4)">
+  <component name="RunManager" selected="JUnit.SimplePigShould (3)">
     <configuration name="SimplePigShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
@@ -153,7 +153,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplePigShould (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimplePigShould (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimplePigShould" />
@@ -162,7 +162,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplePigShould (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimplePigShould (4)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimplePigShould" />
@@ -182,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimplePigShould (3)" />
         <item itemvalue="JUnit.SimplePigShould (4)" />
         <item itemvalue="JUnit.SimplePigShould (2)" />
         <item itemvalue="JUnit.SimplePigShould (1)" />
         <item itemvalue="JUnit.SimplePigShould" />
-        <item itemvalue="JUnit.SimplePigShould (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579353553463</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Green test - not_pig_when_word_has_number">
+      <created>1579353615255</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1579353615255</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -357,7 +364,8 @@
     <MESSAGE value="Red test - not_pig_when_word_has_special_character" />
     <MESSAGE value="Green test - not_pig_when_word_has_special_character" />
     <MESSAGE value="Red test - not_pig_when_word_has_number" />
-    <option name="LAST_COMMIT_MESSAGE" value="Red test - not_pig_when_word_has_number" />
+    <MESSAGE value="Green test - not_pig_when_word_has_number" />
+    <option name="LAST_COMMIT_MESSAGE" value="Green test - not_pig_when_word_has_number" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -369,8 +377,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimplePigShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        <state relative-caret-position="171">
+          <caret line="32" column="87" selection-start-line="32" selection-start-column="87" selection-end-line="32" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#112#113#0" expanded="true" />
