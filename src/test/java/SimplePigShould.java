@@ -20,8 +20,16 @@ public class SimplePigShould {
 
     private static class SimplePig {
         public static String pigIt(String phrase) {
-            if (phrase.matches("[\\W||\\d]") || phrase.isEmpty()) return phrase;
+            if (hasSpecialCharactersOrNumbers(phrase) || isEmpty(phrase)) return phrase;
             return pigWord(phrase);
+        }
+
+        private static boolean isEmpty(String phrase) {
+            return phrase.isEmpty();
+        }
+
+        private static boolean hasSpecialCharactersOrNumbers(String phrase) {
+            return phrase.matches("[\\W||\\d]");
         }
 
         private static String pigWord(String phrase) {

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aaea95d-bd04-4f4a-a466-86cc2ec542d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/SimplePigShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SimplePigShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -30,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SimplePigShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+            <state relative-caret-position="204">
+              <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#112#113#0" expanded="true" />
@@ -40,6 +41,10 @@
                 <element signature="e#348#349#0" expanded="true" />
                 <element signature="e#425#426#0" expanded="true" />
                 <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#819#820#0" expanded="true" />
+                <element signature="e#795#796#0" expanded="true" />
+                <element signature="e#854#855#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimplePigShould (3)">
+  <component name="RunManager" selected="JUnit.SimplePigShould (5)">
     <configuration name="SimplePigShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
@@ -162,7 +167,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplePigShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SimplePigShould (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SimplePigShould" />
@@ -173,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimplePigShould (5)" />
         <item itemvalue="JUnit.SimplePigShould (3)" />
         <item itemvalue="JUnit.SimplePigShould (4)" />
         <item itemvalue="JUnit.SimplePigShould (2)" />
         <item itemvalue="JUnit.SimplePigShould (1)" />
-        <item itemvalue="JUnit.SimplePigShould" />
       </list>
     </recent_temporary>
   </component>
@@ -227,16 +232,24 @@
       <option name="project" value="LOCAL" />
       <updated>1579352542704</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Green test - pig_when_string_is_a_word">
+      <created>1579352945024</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579352945024</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Refactor - Operation's steps extracted as method">
+      <created>1579353027688</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579353027688</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SimplePigShould - 2020.01.18 at 12h 48m 46s.xml">
-      <configuration name="SimplePigShould" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SimplePigShould_(1) - 2020.01.18 at 12h 55m 48s.xml">
-      <configuration name="SimplePigShould (1)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SimplePigShould_(2) - 2020.01.18 at 12h 58m 10s.xml">
       <configuration name="SimplePigShould (2)" configurationId="JUnit" />
     </history-entry>
@@ -254,6 +267,18 @@
     </history-entry>
     <history-entry file="SimplePigShould - 2020.01.18 at 13h 02m 08s.xml">
       <configuration name="SimplePigShould" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimplePigShould_(1) - 2020.01.18 at 13h 07m 45s.xml">
+      <configuration name="SimplePigShould (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimplePigShould_(2) - 2020.01.18 at 13h 08m 32s.xml">
+      <configuration name="SimplePigShould (2)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimplePigShould_(4) - 2020.01.18 at 13h 08m 53s.xml">
+      <configuration name="SimplePigShould (4)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SimplePigShould_(3) - 2020.01.18 at 13h 09m 51s.xml">
+      <configuration name="SimplePigShould (3)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -294,7 +319,9 @@
     <MESSAGE value="Red test - not_pig_when_string_is_not_a_word" />
     <MESSAGE value="Green test - not_pig_when_string_is_not_a_word" />
     <MESSAGE value="Red test - pig_when_string_is_a_word" />
-    <option name="LAST_COMMIT_MESSAGE" value="Red test - pig_when_string_is_a_word" />
+    <MESSAGE value="Green test - pig_when_string_is_a_word" />
+    <MESSAGE value="Refactor - Operation's steps extracted as method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor - Operation's steps extracted as method" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -306,8 +333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SimplePigShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="60" selection-start-line="24" selection-start-column="60" selection-end-line="24" selection-end-column="60" />
+        <state relative-caret-position="204">
+          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#112#113#0" expanded="true" />
@@ -316,6 +343,10 @@
             <element signature="e#348#349#0" expanded="true" />
             <element signature="e#425#426#0" expanded="true" />
             <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
           </folding>
         </state>
       </provider>
