@@ -36,7 +36,14 @@ public class SimplePigShould {
     private static class SimplePig {
         public static String pigIt(String phrase) {
             if (hasSpecialCharactersOrNumbers(phrase) || isEmpty(phrase)) return phrase;
-            String[] words = phrase.split(" ");
+            return pig(getWordsOf(phrase));
+        }
+
+        private static String[] getWordsOf(String phrase) {
+            return phrase.split(" ");
+        }
+
+        private static String pig(String[] words) {
             String pigedPhrase = "";
             for (String word : words){
                 pigedPhrase += pigWord(word) + " ";
