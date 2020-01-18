@@ -132,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SimplePigShould (2)">
+  <component name="RunManager" selected="JUnit.SimplePigShould">
     <configuration name="SimplePigShould (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SimplePigLatin" />
       <option name="PACKAGE_NAME" value="" />
@@ -180,9 +180,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SimplePigShould" />
         <item itemvalue="JUnit.SimplePigShould (2)" />
         <item itemvalue="JUnit.SimplePigShould (1)" />
-        <item itemvalue="JUnit.SimplePigShould" />
         <item itemvalue="JUnit.SimplePigShould (5)" />
         <item itemvalue="JUnit.SimplePigShould (3)" />
       </list>
